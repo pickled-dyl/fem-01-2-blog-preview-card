@@ -184,7 +184,7 @@ body {
     background-color: var(--yellow);
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -192,17 +192,19 @@ main {
     width: 85%;
     background-color: var(--white);
     margin: 0 auto;
+    padding: 1rem;
     border-radius: 20px;
     border: 1px solid var(--gray-950);
     box-shadow: 10px 10px var(--gray-950);
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 section:first-of-type img {
     border-radius: 10px;
-    width: 85%;
+    width: auto;
     margin: 0 auto;
     display: block;
 }
