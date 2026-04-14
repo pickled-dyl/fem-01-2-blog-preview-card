@@ -179,6 +179,13 @@ body {
     min-width: 375px;
     font-family: "Figtree", sans-serif;
     font-weight: var(--regular);
+    background-color: var(--yellow);
+}
+
+main {
+    width: 85vw;
+    background-color: var(--white);
+    margin: 0 auto;
 }
 
 .attribution {
