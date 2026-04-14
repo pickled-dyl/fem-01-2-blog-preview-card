@@ -169,11 +169,25 @@ select {
     --white: hsl(0, 0%, 100%);
     --gray-500: hsl(0, 0%, 42%);
     --gray-950: hsl(0, 0%, 7%);
+
+    --regular: 500;
+    --bold: 800;
 }
 
 /* GLOBAL STYLES */
 body {
     min-width: 375px;
+    font-family: "Figtree", sans-serif;
+    font-weight: var(--regular);
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 /* MEDIA QUERY (desktop) */
