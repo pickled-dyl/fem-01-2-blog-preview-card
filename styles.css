@@ -189,7 +189,7 @@ body {
 }
 
 main {
-    width: 85%;
+    width: 80%;
     background-color: var(--white);
     margin: 0 auto;
     padding: 1rem;
@@ -202,11 +202,12 @@ main {
     flex-direction: column;
 }
 
-section:first-of-type img {
+#img-container img {
+    width: 100%;
     border-radius: 10px;
-    width: auto;
+    background-color: red;
     margin: 0 auto;
-    display: block;
+    object-fit: cover;
 }
 
 .attribution {
