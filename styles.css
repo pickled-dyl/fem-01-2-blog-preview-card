@@ -177,15 +177,34 @@ select {
 /* GLOBAL STYLES */
 body {
     min-width: 375px;
+    width: 100vw;
+    height: 100vh;
     font-family: "Figtree", sans-serif;
     font-weight: var(--regular);
     background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 main {
-    width: 85vw;
+    width: 85%;
     background-color: var(--white);
     margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid var(--gray-950);
+    box-shadow: 10px 10px var(--gray-950);
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+section:first-of-type img {
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
 }
 
 .attribution {
