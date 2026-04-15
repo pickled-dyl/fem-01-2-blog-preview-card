@@ -189,10 +189,10 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 75%;
     background-color: var(--white);
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 20px;
     border: 1px solid var(--gray-950);
     box-shadow: 10px 10px var(--gray-950);
@@ -202,14 +202,19 @@ main {
     flex-direction: column;
 }
 
-#img-container {
+section:first-of-type {
     background-color: red;
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
 }
 
-#img-container img {
+section:first-of-type img {
     border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.cover {
     object-fit: cover;
 }
 
