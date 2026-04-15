@@ -181,6 +181,7 @@ body {
     height: 100vh;
     font-family: "Figtree", sans-serif;
     font-weight: var(--regular);
+    color: var(--gray-950);
     background-color: var(--yellow);
     display: flex;
     align-items: center;
@@ -230,6 +231,19 @@ section:first-of-type img {
 section:nth-of-type(2) p {
     font-size: 0.8rem;
     margin: 0.5rem 0;
+}
+
+h1 {
+    font-weight: var(--bold);
+    font-size: 1.35rem;
+    margin: 0.75rem 0;
+}
+
+section:nth-of-type(3) p {
+    color: var(--gray-500);
+    margin: 0.8rem 0;
+    line-height: 1.25rem;
+    font-size: 0.9rem;
 }
 
 .attribution {
