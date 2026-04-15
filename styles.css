@@ -210,7 +210,7 @@ section:first-of-type {
 }
 
 section:first-of-type img {
-    width: 110%;
+    width: 100%;
     height: auto;
 }
 
