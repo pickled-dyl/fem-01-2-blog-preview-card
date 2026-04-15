@@ -285,6 +285,6 @@ footer {
 
     main,
     footer {
-        width: 20vw;
+        max-width: 300px;
     }
 }
