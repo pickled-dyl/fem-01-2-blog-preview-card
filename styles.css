@@ -203,14 +203,14 @@ main {
 }
 
 section:first-of-type {
-    background-color: red;
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 section:first-of-type img {
     border-radius: 10px;
-    width: 100%;
+    width: 110%;
     height: auto;
 }
 
