@@ -239,6 +239,10 @@ h1 {
     margin: 0.6rem 0 0.9rem 0;
 }
 
+h1:hover {
+    color: var(--yellow);
+}
+
 section:nth-of-type(3) p {
     color: var(--gray-500);
     margin: 0.8rem 0;
